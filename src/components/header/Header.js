@@ -1,13 +1,13 @@
 import React from 'react'
 import SearchIcon from "@material-ui/icons/Search";
-
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import './Header.css';
 
 function Header() {
       return (
             <div className='header'>
                   {/* Logo */}
-                  <img className= 'header__logo' src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt = "amazon-logp"/>
+                  <img className= 'header__logo' src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt = "amazon-logo"/>
                   
                   {/* Search */}
                   <div className = 'header__search'>
@@ -46,6 +46,15 @@ function Header() {
                               </span>
                               <span className = 'header__optionLineBottom'>
                                     Prime
+                              </span>
+                        </div>
+                        <div className="header__optionBasket">
+                              <ShoppingBasketIcon />
+                              <span
+                                    className="header__basketCount header__optionLineBottom"
+                                    style={{ marginLeft: "5px" }}
+                              >
+                                    0
                               </span>
                         </div>
                   </div>

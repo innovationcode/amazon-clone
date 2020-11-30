@@ -1,6 +1,6 @@
 .header {
   background-color: #131921;
-  height: 60px;
+  height: 46px;
   display: flex;
   align-items: center;
   position: sticky;
@@ -56,6 +56,11 @@ input:focus {
   color: white;
 }
 
+/* .header__option:hover {
+  border: 1px solid white;
+  padding: 3px;
+} */
+
 .header__optionLineTop {
   font-size: 10px;
 }
@@ -63,4 +68,12 @@ input:focus {
 .header__optionLineBottom {
   font-size: 13px;
   font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
