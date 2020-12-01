@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header/Header.js';
+import Home from './components/home/Home.js';
 
 import './App.css';
 
@@ -8,7 +9,9 @@ function App() {
     <div className="App">
         {/* Header bar */}
         <Header />
+        
         {/* Home Component */}
+        <Home />
     </div>
   );
 }
