@@ -1,5 +1,11 @@
+.home__container {
+  background-color: #c6c9c7;
+}
+
 .home {
-  max-width: 90vw;
+  display: flex;
+  justify-content: center;
+  max-width: 86vw;
   margin-left: auto;
   margin-right: auto;
 }

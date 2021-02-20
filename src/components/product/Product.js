@@ -16,7 +16,7 @@ const Product = () => {
                               <p> ⭐</p>
                         </div>
 
-                        <img src = 'https://m.media-amazon.com/images/I/71IARBRh--L._AC_SL1500_.jpg' alt = "product-image"/>
+                        <img src = 'https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Lean_Startup.png/220px-Lean_Startup.png' alt = "product-image"/>
 
                         <button>Add to Basket</button>
                   </div> 
